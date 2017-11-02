@@ -117,7 +117,7 @@ namespace Web_Api.Controllers
             return Ok(data);
 
 
-        }  
+        }
         [HttpGet]
         public async Task <IHttpActionResult> DeleteById(int id)
         {
