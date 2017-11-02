@@ -106,6 +106,7 @@ namespace Web_Api.Controllers
 
 
         }
+
         [HttpGet]
         public IHttpActionResult DataById(int id) {
 
